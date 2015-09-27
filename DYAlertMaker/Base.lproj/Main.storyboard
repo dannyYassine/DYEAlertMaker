@@ -18,9 +18,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifa-zM-U7l">
-                                <rect key="frame" x="114" y="141" width="175" height="30"/>
+                                <rect key="frame" x="20" y="141" width="269" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="175" id="B3i-qR-BXB"/>
+                                    <constraint firstAttribute="width" constant="269" id="B3i-qR-BXB"/>
                                     <constraint firstAttribute="height" constant="30" id="Lnv-Dv-vu4"/>
                                 </constraints>
                                 <state key="normal" title="One Button"/>
@@ -80,9 +80,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P38-R7-xod">
-                                <rect key="frame" x="297" y="141" width="153" height="30"/>
+                                <rect key="frame" x="297" y="141" width="283" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="153" id="lCy-zh-uzc"/>
+                                    <constraint firstAttribute="width" constant="283" id="lCy-zh-uzc"/>
                                 </constraints>
                                 <state key="normal" title="One Button"/>
                                 <connections>
@@ -108,8 +108,8 @@
                             <constraint firstItem="vhX-tG-k9e" firstAttribute="top" secondItem="VfX-YQ-6gY" secondAttribute="bottom" constant="15" id="7Zf-Fg-Hkt"/>
                             <constraint firstItem="zKG-z4-UVX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7y4-Pm-QeX"/>
                             <constraint firstItem="VfX-YQ-6gY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1" id="8Pb-kq-ZpA"/>
-                            <constraint firstItem="P38-R7-xod" firstAttribute="width" secondItem="Ifa-zM-U7l" secondAttribute="width" constant="-22" id="936-rN-QgV"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="P38-R7-xod" secondAttribute="trailing" constant="130" id="C6S-yj-DW5"/>
+                            <constraint firstItem="P38-R7-xod" firstAttribute="width" secondItem="Ifa-zM-U7l" secondAttribute="width" constant="14" id="936-rN-QgV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P38-R7-xod" secondAttribute="trailing" id="C6S-yj-DW5"/>
                             <constraint firstItem="ahG-Si-Haz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I0g-1U-nwX"/>
                             <constraint firstItem="vhX-tG-k9e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-1" id="JFE-wq-mTU"/>
                             <constraint firstItem="zKG-z4-UVX" firstAttribute="top" secondItem="Jsc-tI-UJb" secondAttribute="bottom" constant="8" id="Lll-NY-CeH"/>
@@ -119,7 +119,7 @@
                             <constraint firstItem="Jsc-tI-UJb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XAu-hT-kbq"/>
                             <constraint firstItem="Ifa-zM-U7l" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="121" id="YSW-r5-0AC"/>
                             <constraint firstItem="An2-7n-pKg" firstAttribute="top" secondItem="vhX-tG-k9e" secondAttribute="bottom" constant="8" id="aE4-dN-wHg"/>
-                            <constraint firstItem="Ifa-zM-U7l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="94" id="f09-lC-dj2"/>
+                            <constraint firstItem="Ifa-zM-U7l" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="f09-lC-dj2"/>
                             <constraint firstItem="ahG-Si-Haz" firstAttribute="top" secondItem="An2-7n-pKg" secondAttribute="bottom" constant="8" id="lJf-Tp-Wem"/>
                             <constraint firstItem="Jsc-tI-UJb" firstAttribute="top" secondItem="Ifa-zM-U7l" secondAttribute="bottom" constant="8" id="vcY-zp-bbe"/>
                             <constraint firstItem="P38-R7-xod" firstAttribute="leading" secondItem="Ifa-zM-U7l" secondAttribute="trailing" constant="8" id="wIM-zF-QZb"/>

@@ -43,7 +43,7 @@ class ViewController: UIViewController, UIAlertViewDelegate {
     }
     
     @IBAction func threeButtons(sender: UIButton) {
-        UIAlertController.alertWithThreeButtonWithStyle(.Alert, withTitle: "Alert", withMessage: "Message", firstButtonTitle: "Button 1", firstHandler: { (done) -> Void in
+        UIAlertController.alertWithThreeButtonWithStyle(.ActionSheet, withTitle: "Alert", withMessage: "Message", firstButtonTitle: "Button 1", firstHandler: { (done) -> Void in
             
             }, secondButtonTitle: "Button 2", secondHandler: { (done) -> Void in
                 
