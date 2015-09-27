@@ -5,7 +5,8 @@ This is a great way to reduce lines of code for creating an UIAlertViewControlle
 
 # One Statement Only
 
-You only need to call one function to instantiate the Alerts.
+You only need to call one function to instantiate the Alerts. All methods check if the system is iOS 7 or iOS 8 +, then it implements the correct UIAlertView/UIActionSheet or UIAlertController
+
 
     UIAlertController.alertWithTwoButtonWithStyle(.Alert, withTitle: "Alert", withMessage: "Message", firstButtonTitle: "Button1", firstHandler: { (done) -> Void in
                 
