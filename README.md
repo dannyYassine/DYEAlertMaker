@@ -1,6 +1,18 @@
 # DYAlertMaker
 
-This is a great way to reduce lines of code for creating an AlertViewController.
+This is a great way to reduce lines of code for creating an UIAlertViewController / UIAlertView / UIActionSheet
+
+# One Statement Only
+
+You only need to call one function to instantiate the Alerts.
+
+    UIAlertController.alertWithTwoButtonWithStyle(.Alert, withTitle: "Alert", withMessage: "Message", firstButtonTitle: "Button1", firstHandler: { (done) -> Void in
+                
+                }, secondButtonTitle: "Cancel", secondHandler: { (cancel) -> Void in
+                    
+                }, withDelegate: self)
+
+
 
 # iOS 7 Compatibility
 
