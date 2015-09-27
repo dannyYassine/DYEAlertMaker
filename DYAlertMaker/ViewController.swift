@@ -22,7 +22,6 @@ class ViewController: UIViewController, UIAlertViewDelegate {
 
     @IBAction func actionSheetOne(sender: AnyObject) {
         
-        
         UIAlertController.alertWithOneButtonWithStyle(.ActionSheet, withTitle: "ActionSheet", withMessage: "Message", buttonTitle: "Button1", withDelegate: self)
         
     }
@@ -43,6 +42,7 @@ class ViewController: UIViewController, UIAlertViewDelegate {
     }
     
     @IBAction func threeButtons(sender: UIButton) {
+        
         UIAlertController.alertWithThreeButtonWithStyle(.ActionSheet, withTitle: "Alert", withMessage: "Message", firstButtonTitle: "Button 1", firstHandler: { (done) -> Void in
             
             }, secondButtonTitle: "Button 2", secondHandler: { (done) -> Void in
@@ -59,24 +59,26 @@ class ViewController: UIViewController, UIAlertViewDelegate {
             
             }, secondButton: "Cancel", secondHandler: { (done) -> Void in
                 
-            }, inView: self, withDelegate: self)
+            }, withDelegate: self)
         
     }
     
     @IBAction func threeTextFields(sender: AnyObject) {
+        
         UIAlertController.alertControllerSignUpWithStyle(.Alert, title: "Sign Up", message: "Sign Up Message", firstButton: "Button1", firstHandler: { (done) -> Void in
             
             }, secondButton: "Button3", secondHandler: { (done) -> Void in
                 
-            }, inView: self, withDelegate: self)
+            }, withDelegate: self)
     }
 
     @IBAction func OneTextField(sender: AnyObject) {
+        
         UIAlertController.alertControllerWithOneTextFieldWithStyle(.Alert, title: "Title", message: "Message", firstButton: "Button1", firstHandler: { (done) -> Void in
             
             }, secondButton: "Button2", secondHandler: { (done) -> Void in
                 
-            }, inView: self, withDelegate: self)
+            }, withDelegate: self)
     }
     
     func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
