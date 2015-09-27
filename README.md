@@ -18,7 +18,9 @@ You only need to call one function to instantiate the Alerts. All methods check 
                     
                 }, withDelegate: self)
 
+In all methods, you must pass the delegate in the class methods.
 
+![](https://raw.githubusercontent.com/dannyYassine/DYAlertMaker/master/DYAlertMaker1.gif)
 
 # iOS 7 Compatibility
 
@@ -26,8 +28,18 @@ All methods check if the system is iOS 7 or iOS 8 +, then it implements the corr
 
 Since Apple released UIAlertControlers in the update for iOS 8, I created this file to help me reduce lines of code in my projects.
 
+Like before, for iOS 7, you will have to expose the delegate functions of the UIAlertView/UIActionSheets to determine the pressed button
+
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+            
+            if buttonIndex == 0 {
+                // Do something!
+            }
+            
+        }
+
 # Sign Up / Sign In Alerts
 
 You can create simple Sign In ou Sign up as an alert. YOULL HAVE TO CREATE THE LOGIC IN YOUR IMPLEMENTATION FILE WHERE YOU ADD THE ALERTVIEWCONTROLLER. You should set a TAG to the textFields in order to get the texts (already coded in the .m file of AlertMaker). A method is to have a username and password property and using the UIextField Delegate method "textFieldDidEndEditing" to store textField.text to their respective username and password textFields. Then you can have them verified in the handler of your "SAVE" button.
 
-In all methods, you must pass the delegate in the class methods.
+![](https://raw.githubusercontent.com/dannyYassine/DYAlertMaker/master/DYAlertMaker2.gif)
