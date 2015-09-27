@@ -20,12 +20,9 @@ You only need to call one function to instantiate the Alerts.
 
 # iOS 7 Compatibility
 
-Added hybrid methods to check if the system is iOS 7 or 8, then it implements the correct AlertView or AlertController */
+All methods check if the system is iOS 7 or iOS 8 +, then it implements the correct AlertView/ActionSheet or AlertController
 
-Since Apple released it in the update for iOS 8, I created this file to help me reduce lines of code in my projects.
-
-You can create an AlertViewController with the desire STYLE, NUMBER OF BUTTONS
-(for now I created 5 class methods to allow from 1 to 3 buttons, a Sign In and Sign Up alertControllers)
+Since Apple released UIAlertControlers in the update for iOS 8, I created this file to help me reduce lines of code in my projects.
 
 # Sign Up / Sign In Alerts
 
