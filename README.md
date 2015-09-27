@@ -40,8 +40,8 @@ Like before, for iOS 7, you will have to expose the delegate functions of the UI
             
         }
 
-# Sign Up / Sign In Alerts
+# Sign Up / Sign In (Alerts only)
 
-You can create simple Sign In ou Sign up as an alert. YOULL HAVE TO CREATE THE LOGIC IN YOUR IMPLEMENTATION FILE WHERE YOU ADD THE ALERTVIEWCONTROLLER. You should set a TAG to the textFields in order to get the texts (already coded in the .m file of AlertMaker). A method is to have a username and password property and using the UIextField Delegate method "textFieldDidEndEditing" to store textField.text to their respective username and password textFields. Then you can have them verified in the handler of your "SAVE" button.
+You can create simple Sign In ou Sign up as an alert. You will have to hold your own logic to handle the textfields. You should implement UITextFieldDelegate methods in order to get the text of those textFields (i.e. "textFieldDidEndEditing").
 
 ![](https://raw.githubusercontent.com/dannyYassine/DYAlertMaker/master/DYAlertMaker2.gif)
