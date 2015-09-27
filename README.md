@@ -30,6 +30,8 @@ Since Apple released UIAlertControlers in the update for iOS 8, I created this f
 
 Like before, for iOS 7, you will have to expose the delegate functions of the UIAlertView/UIActionSheets to determine the pressed button
 
+    //MARK: UIAlertView Delegates
+    
     func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
             
             if buttonIndex == 0 {
