@@ -78,5 +78,14 @@ class ViewController: UIViewController, UIAlertViewDelegate {
                 
             }, inView: self, withDelegate: self)
     }
+    
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+        
+        if buttonIndex == 0 {
+            // Do something!
+        }
+        
+    }
 }
+
 
