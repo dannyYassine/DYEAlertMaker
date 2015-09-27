@@ -8,7 +8,11 @@ You only need to call one function to instantiate the Alerts.
 
     UIAlertController.alertWithTwoButtonWithStyle(.Alert, withTitle: "Alert", withMessage: "Message", firstButtonTitle: "Button1", firstHandler: { (done) -> Void in
                 
+                    // Handler of the first button
+                
                 }, secondButtonTitle: "Cancel", secondHandler: { (cancel) -> Void in
+                    
+                    // Handler of the second button
                     
                 }, withDelegate: self)
 
